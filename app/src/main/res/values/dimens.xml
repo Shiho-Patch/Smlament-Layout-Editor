@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="designer_padding_small">4dp</dimen>
+    <dimen name="designer_padding">8dp</dimen>
+    <dimen name="designer_padding_large">16dp</dimen>
+    <dimen name="designer_corner">16dp</dimen>
+    <dimen name="designer_corner_small">8dp</dimen>
+    <dimen name="designer_elevation">2dp</dimen>
+</resources>

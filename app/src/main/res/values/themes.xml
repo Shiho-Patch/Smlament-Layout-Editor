@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Material Design 3 (Material You) base theme -->
+    <style name="Theme.LayoutBuilder" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor">?attr/colorSurfaceContainer</item>
+        <item name="android:windowBackground">?attr/colorSurface</item>
+    </style>
+
+    <style name="Theme.LayoutBuilder.AppBar" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorSurface">?attr/colorSurfaceContainer</item>
+    </style>
+
+    <style name="Widget.LayoutBuilder.Button" parent="Widget.Material3.Button.Elevated" />
+    <style name="Widget.LayoutBuilder.Button.Tonal" parent="Widget.Material3.Button.TonalButton" />
+    <style name="Widget.LayoutBuilder.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+    <style name="Widget.LayoutBuilder.Chip" parent="Widget.Material3.Chip.Assist.Elevated" />
+</resources>
