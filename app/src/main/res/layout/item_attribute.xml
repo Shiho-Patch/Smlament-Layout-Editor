@@ -52,6 +52,6 @@
                 android:layout_height="wrap_content"
                 android:hint="属性值"
                 android:textAppearance="?attr/textAppearanceBodyMedium" />
-        </com.google.android.material.textfield.TextInputLayout
+        </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
