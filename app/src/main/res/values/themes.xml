@@ -11,13 +11,4 @@
     <style name="Theme.LayoutBuilder.AppBar" parent="ThemeOverlay.Material3.ActionBar">
         <item name="colorSurface">?attr/colorSurfaceContainer</item>
     </style>
-
-    <!-- Convenience widget styles (no invalid Elevated suffix) -->
-    <style name="Widget.LayoutBuilder.Button" parent="Widget.Material3.Button" />
-    <style name="Widget.LayoutBuilder.Button.Tonal" parent="Widget.Material3.Button.TonalButton" />
-    <style name="Widget.LayoutBuilder.Card" parent="Widget.Material3.CardView">
-        <item name="cardCornerRadius">16dp</item>
-        <item name="cardElevation">2dp</item>
-    </style>
-    <style name="Widget.LayoutBuilder.Chip" parent="Widget.Material3.Chip.Assist" />
 </resources>
